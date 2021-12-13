@@ -166,56 +166,7 @@ input[type=text], #text-area {
 }
 
 /*Media Query for mobile*/
-@media screen and (max-width: 1500px) {
-
-    .background-image{
-        background-image: url(../collage.jpg);
-        background-size: 1000% auto;
-        background-repeat: repeat-x;
-        animation: animatedBackground 60s linear infinite;
-    }
-    .display-1{
-        font-size: 2em;
-        margin-top: 15%;
-        margin-bottom: 10%;
-        padding-top: 3%;
-        padding-bottom:3% ;
-        text-align: center;
-        border-top: solid 2px white;
-        border-bottom: solid 2px white;
-        width: 82%;
-        
-    }
-
-    
-    .bio-div, .bio-div-right{
-        text-align: center;
-        width: 80%;
-        margin-bottom: 5%;
-        padding-bottom: 1em;
-    }
-    .iframe-container{
-        text-align: center;
-        width: 80%;
-        margin-bottom: 5%;
-        height: 250pt;
-    }
-    .logo-div{
-        display:flex;
-        padding: 2.5%;
-        flex-basis: 15em ;
-    }
-    .footer-container{
-        display: flex;
-        justify-content:space-evenly;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-bottom: 2.5%;
-       
-    
-  
-}
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
 
     .display-1{
         margin-top: 3%;
@@ -233,4 +184,109 @@ input[type=text], #text-area {
     
   
 }
+
+@media (min-width: 768px) and (max-width: 1250px) {
+
+    .background-image{
+        background-image: url(../collage.jpg);
+        background-size: 420% auto;
+        background-repeat: repeat-x;
+        animation: animatedBackground 60s linear infinite;
+    }
+    .display-1{
+        font-size: 2em;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 3%;
+        padding-bottom:3% ;
+        text-align: center;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        width: 82%;
+        
+    }
+
+    
+    .bio-div, .iframe-container{
+        text-align: center;
+        width: 37%;
+        margin: 0% 2.5% 5% 2.5%;
+        height: auto;
+    }
+    .bio-div-right{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    .logo-div{
+        display:flex;
+        padding: 5%;
+        flex-basis: 15em ;
+    }
+    .footer-container{
+        display: flex;
+        justify-content:space-evenly;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        
+    }
+    .trade{
+        margin-bottom: 2%;
+    }
+  
+}
+@media (min-width: 300px) and (max-width: 767px) {
+
+    .background-image{
+        background-image: url(../collage.jpg);
+        background-size: 800% auto;
+        background-repeat: repeat-x;
+        animation: animatedBackground 60s linear infinite;
+    }
+    .display-1{
+        font-size: 2em;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 3%;
+        padding-bottom:3% ;
+        text-align: center;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        width: 82%;
+        
+    }
+
+    
+    .bio-div, .bio-div-right{
+        text-align: center;
+        width: 85%;
+        margin-bottom: 5%;
+        padding-bottom: 1em;
+    }
+    .iframe-container{
+        text-align: center;
+        width: 85%;
+        margin-bottom: 5%;
+        height: 250pt;
+    }
+    .logo-div{
+        display:flex;
+    }
+    .footer-container{
+        display: flex;
+        justify-content:space-evenly;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-bottom: 2.5%;
+        padding:1rem
+        
+        
+    }
+    
+  .trade{
+      margin-bottom: 2%;
+  }
 }
