@@ -3,4 +3,10 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     height: 100%;
-    background-image: url(../bgimageLarge.jpeg);}
+    background-image: url(../bgimageLarge.jpeg);
+}
+
+.logos{
+    width: 100px;
+
+}
