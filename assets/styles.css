@@ -27,6 +27,7 @@
     margin-left: auto;
     margin-right: auto;
     transition: 1.5s;
+    font-size: 300%;
 }
 .display-1:hover{
     text-shadow: rgb(255, 255, 255) 0px 0px 7px;
@@ -45,6 +46,7 @@
     width: 25%;
     background-color: rgba(0, 0, 0, 0.473);
     border-radius: 10pt;
+    text-align: center;
    
     
 }
@@ -106,7 +108,7 @@ label{
     letter-spacing: 3px;
     font-weight: 100;
 }
-input[type=text] {
+input[type=text], #text-area {
     width: 100%;
     padding: 0px 20px;
     margin: 8px 0;
@@ -137,7 +139,7 @@ input[type=text] {
 .logo-div{
     display:flex;
     padding: 1.5em;
-    flex-basis: 150px ;
+    flex-basis: 120px ;
     flex-shrink: 10px;
 }
 .footer-container{
@@ -174,7 +176,7 @@ input[type=text] {
         animation: animatedBackground 60s linear infinite;
     }
     .display-1{
-        font-size: 1.1em;
+        font-size: 2em;
         margin-top: 15%;
         margin-bottom: 10%;
         padding-top: 3%;
@@ -210,7 +212,7 @@ input[type=text] {
         padding-right: 5%;
         padding-left: 5%;
         margin-bottom: 2.5%;
-    }
+       
     
   
 }
