@@ -3,7 +3,7 @@
 	100% { background-position:  top right; }
 }
 
-/*body starts here*/
+
 
 .background-image {
 	height: 100%; 
@@ -166,7 +166,7 @@ input[type=text], #text-area {
     margin: 0%;
 }
 
-/*Media Query for mobile*/
+/*Media Query for large desktop*/
 @media (min-width: 1920px) {
 
     .display-1{
@@ -185,7 +185,7 @@ input[type=text], #text-area {
     
   
 }
-
+/* Media Query for Tablet*/ 
 @media (min-width: 768px) and (max-width: 1250px) {
 
     .background-image{
@@ -239,13 +239,14 @@ input[type=text], #text-area {
     }
   
 }
+/* media query for mobile*/
 @media (min-width: 20px) and (max-width: 767px) {
 
     .background-image{
         background-image: url(../collage.jpg);
-        background-size: 800% auto;
+        background-size: 1425% auto;
         background-repeat: repeat-x;
-        animation: animatedBackground 60s linear infinite;
+        animation: animatedBackground 120s linear infinite;
     }
     .display-1{
         font-size: 2em;
@@ -254,8 +255,8 @@ input[type=text], #text-area {
         padding-top: 3%;
         padding-bottom:3% ;
         text-align: center;
-        border-top: solid 2px white;
-        border-bottom: solid 2px white;
+        border-top: solid 1px rgba(255, 255, 255, 0.452);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.445);
         width: 82%;
         
     }
@@ -267,25 +268,41 @@ input[type=text], #text-area {
         margin-bottom: 5%;
         padding-bottom: 1em;
     }
+    
+    
+    .bio-div, .bio-div-right{
+        text-align: center;
+        width: 85%;
+        margin-bottom: 5%;
+        padding-bottom: 1em;
+    }
     .iframe-container{
         text-align: center;
         width: 85%;
         margin-bottom: 5%;
-        height: 250pt;
+        height: 225pt;
     }
     .logo-div{
         display:flex;
         flex-basis: 15em;
-        padding: 0.4em;
+        padding: .45em;
     }
     .footer-container{
         display: flex;
+        border-top:solid 1px #ffffff75;
+        border-bottom:solid 1px #ffffff75;
         justify-content:space-evenly;
-        padding: 0% 2.5% 2.5% 2.5%;
-        
-        
-        
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top:4%;
+        margin-bottom:3%;
+        margin-right:8%;
+        margin-left:8%
+
     }
     
+    .trade{
+        margin-bottom: 2%;
+    }
   
 }
