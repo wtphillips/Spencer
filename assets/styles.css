@@ -238,7 +238,7 @@ input[type=text], #text-area {
     }
   
 }
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 20px) and (max-width: 767px) {
 
     .background-image{
         background-image: url(../collage.jpg);
@@ -274,19 +274,17 @@ input[type=text], #text-area {
     }
     .logo-div{
         display:flex;
+        flex-basis: 15em;
+        padding: 0.4em;
     }
     .footer-container{
         display: flex;
         justify-content:space-evenly;
-        padding-right: 0%;
-        padding-left: 0%;
-        margin-bottom: 2.5%;
-        padding:1rem
+        padding: 0% 2.5% 2.5% 2.5%;
+        
         
         
     }
     
-  .trade{
-      margin-bottom: 2%;
-  }
+  
 }
