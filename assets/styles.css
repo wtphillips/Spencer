@@ -1,6 +1,6 @@
 @keyframes animatedBackground {
-	0% { background-position: top left; }
-	100% { background-position:  top right; }
+	0% { background-position: right 99% top 1%;; }
+	100% { background-position: right 0% top 1%;; }
 }
 
 
@@ -8,7 +8,7 @@
 .background-image {
 	height: 100%; 
 	background-image: url(..//linear.png);
-    background-size: 1525% auto;
+    background-size: 1625% auto;
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 	animation: animatedBackground 200s linear infinite;
