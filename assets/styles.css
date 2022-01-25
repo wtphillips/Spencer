@@ -27,6 +27,18 @@
     margin-right: auto;
     transition: 1.5s;
     font-size: 300%;
+    
+}
+.presave-div{
+    text-align: center;
+    margin: auto;
+    
+}
+.presave{
+    color: white;
+    font-weight: 200;
+    font-size: 200%;
+    
 }
 .display-1:hover{
     text-shadow: rgb(255, 255, 255) 0px 0px 7px;
